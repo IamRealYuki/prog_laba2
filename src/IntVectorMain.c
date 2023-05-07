@@ -45,7 +45,7 @@ int main()
         printf("%d: %d\n", i, intvector->vector[i]);
     }
     printf("%d %lu %lu\n", res, intvector->capacity, intvector->size);
-    res = int_vector_reserve(intvector, 30);
+    res = int_vector_reserve(intvector, 40);
     printf("%d %lu %lu\n", res, intvector->capacity, intvector->size);
     int_vector_free(intvector);
     int_vector_free(copy);
